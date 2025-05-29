@@ -1,0 +1,75 @@
+body  {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+overflow: hidden;
+margin: 0;
+}
+
+.spaced-text {
+color: black;
+font-size: 18px;
+text-decoration: none;
+text-align: center;
+white-space: pre;
+margin: 10px 0;
+}
+
+.links {
+background-color: slateblue;
+font-size: 60px;
+border-radius: 10px;
+padding: 50px;
+display: block;
+width: 21%;
+text-align: center;
+margin: 10px;
+color: whitesmoke;
+text-decoration: none;
+text-align: center;
+}
+
+.ports {
+background-color: gold;
+text-align: right;
+position: absolute;
+left: 86%;
+bottom: 460px;
+position: fixed;
+right: 0;
+top: 0;
+height: 40%;
+width: 200px; 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.fb  {
+position: relative;
+top: 250px;
+left: 50%;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.yt  {
+position: relative;
+top: 70px;
+left: 20%;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+background: linear-gradient(270deg, #ff00ff, #00ffff);
+background-size: 400% 400%;
+animation: gradient 10s ease infinite;
+}

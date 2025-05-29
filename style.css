@@ -1,0 +1,67 @@
+.title {
+text-align: center;
+color: rgb(255, 0, 0);
+font-size: 100px;
+white-space: pre;
+}
+
+.giulioimage {
+border: solid 3px;
+border-radius: 10000px;
+border-style: dashed;
+width: 28vw;
+height: 40vh;
+position: relative;
+left: 40px;
+bottom: 40px;
+}
+
+.ports {
+background-color: gold;
+text-align: right;
+position: absolute;
+left: 86%;
+bottom: 460px;
+position: fixed;
+right: 0;
+top: 0;
+height: 40%;
+width: 200px; 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.spaced-text {
+color: black;
+font-size: 18px;
+text-decoration: none;
+text-align: center;
+white-space: pre;
+margin: 10px 0;
+}
+
+body {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-image: url(https://tse2.mm.bing.net/th?id=OIG3.dJZlRy2pkC0LJ6drP2ue&pid=ImgGn);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+margin: 0;
+}
+
+#overlay {
+position: fixed;
+top: 0; left: 0;
+width: 100vw; height: 100vh;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+cursor: pointer;
+}

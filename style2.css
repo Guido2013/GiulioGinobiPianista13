@@ -1,0 +1,61 @@
+.ports {
+background-color: gold;
+text-align: right;
+position: absolute;
+left: 86%;
+bottom: 460px;
+position: fixed;
+right: 0;
+top: 0;
+height: 40%;
+width: 200px; 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+.spaced-text {
+color: black;
+font-size: 18px;
+text-decoration: none;
+text-align: center;
+white-space: pre;
+margin: 10px 0;
+}
+body {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-image: url(https://i.postimg.cc/BvtjdZGz/491932348-122095742810855060-9221895748194621409-n.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+margin: 0;
+}
+
+.giulioimage {
+border: solid 3px;
+border-radius: 10000px;
+border-style: dashed;
+width: 25vw;
+height: 35vh;
+position: relative;
+left: 905px;
+bottom: 250px;
+}
+
+#mybio {
+color: whitesmoke;
+font-size: 123%;
+position: relative;
+top: 13%;
+}
+
+#limpone {
+text-decoration: none;
+}
+
+sup {
+color: plum;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="google-site-verification" content="h0zi7VACFq6QZ8NYmTDgvVcPhnAWpwB2_em9DmUYwpU"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="title">    GIULIO          GINOBI</h1>
+<img class="giulioimage" src="https://i.postimg.cc/zBFV9xfd/492242082-9616088505112277-5048337911175206329-n.jpg" alt="Giulio Ginobi">
+<nav class="ports">
+<a class="spaced-text" href="index.html">Home</a><br>
+<a class="spaced-text" href="chiè.html">Chi è</a><br>
+<a class="spaced-text" href="concorsi.html">Concorsi</a><br>
+<a class="spaced-text" href="repertorio.html">Repertorio</a><br>
+<a class="spaced-text" href="collegamentiweb.html">Collegamenti Web</a>
+</nav>
+<div id="overlay">
+</div>
+<audio id="audio" autoplay>
+<source src="rachmaninov-tivoli (mp3cut.net).mp3" type="audio/mpeg">
+</audio>  
+<script>
+document.getElementById("overlay").addEventListener("click", function() {
+var audio = document.getElementById("audio");
+audio.play();
+this.style.display = "none"; // Hides overlay after click
+});
+</script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+.ports {
+background-color: gold;
+text-align: right;
+position: absolute;
+left: 86%;
+bottom: 460px;
+position: fixed;
+right: 0;
+top: 0;
+height: 40%;
+width: 200px; 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.spaced-text {
+color: black;
+font-size: 18px;
+text-decoration: none;
+text-align: center;
+white-space: pre;
+margin: 10px 0;
+}
+
+body {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-image: url(https://i.postimg.cc/g0qjz7gb/nero-sfondo-nero-596818.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: relative;
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+margin: 0;
+}
+
+.title {
+text-align: center;
+color: rgb(255, 0, 0);
+font-size: 75px;    
+}
+
+.allmyconcorsi {
+position: relative;
+}
+
+.years {
+position: relative;
+color: red;
+font-size: 170%;
+bottom: 3%;
+left: 1%;
+}
+
+.concorsi2022 {
+position: relative;
+color: whitesmoke;
+right: 40px;
+font-size: 25px;
+}
+
+.concorsi2023 {
+position: relative;
+color: whitesmoke;
+right: 40px;
+font-size: 25px;
+}
+
+.concorsi2024 {
+position: relative;
+color: whitesmoke;
+right: 40px;
+font-size: 25px;
+}
+
+.concorsi2025 {
+position: relative;
+color: whitesmoke;
+right: 40px;
+font-size: 25px;
+}
+
+.GG {
+position: relative;
+bottom: 37%;
+left: 67%;
+width: 31vw;
+height: 38vh;
+border: solid 3px;
+border-radius: 10000px;
+border-style: dashed;
+}
